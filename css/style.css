@@ -53,12 +53,27 @@ nav .brand-logo {
   font-size: 1.2rem;
 }
 
+.landing-section {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(
+      135deg,
+      rgba(2, 11, 26, 0.5),
+      rgba(2, 11, 26, 0.9)
+    ),
+    url('../images/bg-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     max-width: 100%;
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
+    overflow: hidden;
   }
   nav .header-container {
     display: flex;
@@ -76,6 +91,7 @@ nav .brand-logo {
     width: 97%;
     padding: 0 20px;
     margin: 0 auto;
+    overflow: hidden;
   }
   nav .d-none-medium-below {
     display: none;
