@@ -104,7 +104,7 @@ nav .brand-logo {
 .landing-section .form-control {
   border: 0;
   outline: none;
-  width: 80%;
+  width: 76%;
 }
 
 .landing-section .search-button {
@@ -133,12 +133,42 @@ nav .brand-logo {
   color: black;
 }
 
+@media screen and (min-width: 1025px) {
+  .container {
+    position: relative;
+    width: 90%;
+    max-width: 1350px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    position: relative;
+    width: 96%;
+    padding: 0 5px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  nav .d-none-medium-below {
+    display: none;
+  }
+  .search-blue {
+    background-color: #2a55b8;
+  }
+
+  .landing-section .landing-section-content-container {
+    width: 86%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     position: relative;
     max-width: 100%;
     width: 100%;
-    padding: 0 5px;
+    padding: 0 20px;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -148,6 +178,10 @@ nav .brand-logo {
     flex-direction: column;
     align-items: center;
   }
+  .search-blue {
+    background-color: #d84315;
+  }
+
   nav .nav-items {
     margin-top: 0.5rem;
   }
@@ -163,32 +197,5 @@ nav .brand-logo {
     margin-left: 0;
     text-align: center;
     margin-top: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    position: relative;
-    width: 100%;
-    padding: 0 5px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  nav .d-none-medium-below {
-    display: none;
-  }
-
-  .landing-section .landing-section-content-container {
-    width: 95%;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .container {
-    position: relative;
-    width: 90%;
-    max-width: 1350px;
-    padding: 0 20px;
-    margin: 0 auto;
   }
 }
