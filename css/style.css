@@ -133,6 +133,34 @@ nav .brand-logo {
   color: black;
 }
 
+.steps-section .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  grid-gap: 10rem;
+}
+
+.steps-section .steps-header {
+  color: #d84315;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.steps-section .steps-icon {
+  font-size: 3rem;
+}
+
+.steps-section .steps-title,
+.steps-section .steps-description {
+  line-height: 150%;
+}
+
+.steps-section .steps-title {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
 @media screen and (min-width: 1025px) {
   .container {
     position: relative;
@@ -197,5 +225,15 @@ nav .brand-logo {
     margin-left: 0;
     text-align: center;
     margin-top: 0.5rem;
+  }
+
+  .steps-section .grid-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .steps-section .grid-item:not(:first-child) {
+    margin-top: 2rem;
   }
 }
