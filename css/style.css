@@ -49,8 +49,17 @@ nav .nav-item:active {
   font-weight: 500;
   background-color: #bf360c;
 }
+
 nav .brand-logo {
   font-size: 1.2rem;
+}
+
+.flex-center-center {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
 }
 
 .landing-section {
@@ -67,11 +76,69 @@ nav .brand-logo {
   background-position: center;
 }
 
+.landing-section .landing-section-content-container {
+  width: 50%;
+}
+
+.landing-section .landing-page-heading {
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.landing-section .search-form {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.4rem 1.4rem;
+  border-radius: 5px;
+}
+
+.landing-section .fomr-group {
+  display: flex;
+  align-items: center;
+}
+
+.landing-section .form-control,
+.landing-section .search-button {
+  padding: 0.5rem 0;
+}
+
+.landing-section .form-control {
+  border: 0;
+  outline: none;
+  width: 80%;
+}
+
+.landing-section .search-button {
+  margin-left: -0.3rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.landing-section .search-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.landing-section .call-to-action-container {
+  text-align: center;
+}
+
+.landing-section .call-to-action {
+  display: inline-block;
+  margin-top: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .container {
+    position: relative;
     max-width: 100%;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 5px;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -84,23 +151,42 @@ nav .brand-logo {
   nav .nav-items {
     margin-top: 0.5rem;
   }
+
+  .landing-section .landing-section-content-container,
+  .landing-section .search-button,
+  .landing-section .form-control {
+    width: 100%;
+  }
+
+  .landing-section .search-button {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .container {
-    width: 97%;
-    padding: 0 20px;
+    position: relative;
+    width: 100%;
+    padding: 0 5px;
     margin: 0 auto;
     overflow: hidden;
   }
   nav .d-none-medium-below {
     display: none;
   }
+
+  .landing-section .landing-section-content-container {
+    width: 95%;
+  }
 }
 
 @media screen and (min-width: 1025px) {
   .container {
-    width: 97%;
+    position: relative;
+    width: 90%;
     max-width: 1350px;
     padding: 0 20px;
     margin: 0 auto;
