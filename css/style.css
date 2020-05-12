@@ -9,9 +9,19 @@
   line-height: 150%;
 }
 
+.d-block {
+  display: block;
+}
+.d-grid {
+  display: grid;
+}
 .bg-primary {
   background-color: #d84315;
   opacity: 0.9;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 .bg-blue-white-text {
@@ -49,6 +59,9 @@
 .white-color {
   color: #fff;
 }
+.red-text {
+  color: #d84315;
+}
 
 .black-text {
   color: #000;
@@ -64,8 +77,13 @@
 .mt-07 {
   margin-top: 0.7rem;
 }
+
 .mt-3 {
   margin-top: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
 
 .p {
@@ -243,11 +261,74 @@ footer .footer-nav-bar {
   justify-content: space-between;
   border-top: 1px solid #616161;
   border-bottom: 1px solid #616161;
+  position: relative;
 }
 
+footer .navbar-container-footer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 1rem 0;
+}
 footer .footer-nav-item {
   padding: 0.7rem 0.4rem;
   font-size: 0.9rem;
+}
+
+footer .rounded-icon {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  padding: 25px;
+  top: -2%;
+  border-radius: 50%;
+  border: 1px solid #616161;
+  z-index: 2;
+}
+
+footer .large-font {
+  font-size: 1.2rem;
+}
+
+footer .d-sm-only {
+  display: none;
+}
+
+footer .contact-info {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+footer .footer-subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+footer .form-control,
+footer .submit-form-btn {
+  padding: 0.4rem 0.5rem;
+  border: 0;
+}
+
+footer .form-control {
+  color: #fff;
+  background-color: transparent;
+  border-top: 1px solid #616161;
+  border-bottom: 1px solid #616161;
+  border-left: 1px solid #616161;
+}
+
+footer .submit-form-btn {
+  margin-left: -7px;
+  background-color: #616161;
+  border-top: 1px solid #616161;
+  border-bottom: 1px solid #616161;
+  border-right: 1px solid #616161;
 }
 
 @media screen and (min-width: 1025px) {
@@ -329,7 +410,34 @@ footer .footer-nav-item {
   .why-us-article .why-title {
     font-size: 1rem;
   }
+
   .why-us-article .row {
     padding-bottom: 1rem;
+  }
+
+  .why-us-article .why-description {
+    width: 98%;
+    text-align: justify;
+  }
+
+  footer .d-flex-row {
+    flex-direction: column;
+  }
+
+  footer .d-none-sm {
+    display: none;
+  }
+  footer .d-sm-only {
+    display: initial;
+    font-size: 1rem;
+  }
+
+  footer .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .grid-item {
+    margin-top: 1.3rem;
   }
 }
