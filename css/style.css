@@ -14,10 +14,15 @@
   opacity: 0.9;
 }
 
+.bg-blue-white-text {
+  background-color: #1976d2;
+  color: #fff;
+}
 .bg-grey-white-text {
   color: #fff;
   background-color: #9e9e9e;
 }
+
 .bg-white-red-text {
   background-color: #fff;
   color: #d84315;
@@ -209,8 +214,18 @@ nav .brand-logo {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
 }
+
 .why-us-article .rounded {
   border-radius: 50%;
+}
+
+.why-us-article .why-title {
+  font-size: 1.2rem;
+}
+
+.why-us-article .why-description {
+  width: 50%;
+  text-align: justify;
 }
 
 @media screen and (min-width: 1025px) {
