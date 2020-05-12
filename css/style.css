@@ -393,6 +393,38 @@ footer .submit-form-btn {
   font-weight: 700;
   opacity: 0.8;
 }
+
+.found-results .row {
+  flex-wrap: wrap;
+}
+
+.found-results .col {
+  margin: 0.2rem 0.2rem;
+  padding: 0.5rem;
+  width: 31%;
+  height: auto;
+  background-image: linear-gradient(
+      135deg,
+      rgba(219, 55, 4, 0.7),
+      rgba(219, 55, 4, 0.9)
+    ),
+    url('../images/bg-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.found-results .home-title {
+  display: inline-block;
+  padding: 7rem 4rem;
+  font-weight: 600;
+}
+
+.found-results .search-result-title {
+  font-size: 1.4rem;
+  color: #616161;
+  font-weight: 500;
+}
 @media screen and (min-width: 1025px) {
   .container {
     position: relative;
