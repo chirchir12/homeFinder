@@ -52,177 +52,90 @@
         </div>
       </div>
     </nav>
-    <main>
-      <section class="landing-section">
-        <div class="container">
-          <div class="flex-center-center">
-            <div class="landing-section-content-container">
-              <h1 class="landing-page-heading white-color">
-                FIND YOUR NEXT HOME
-              </h1>
-              <form class="search-form">
-                <label class="search-label" for="search"
-                  >SEARCH BY KEY WORD:</label
-                >
-                <div class="form-group">
-                  <input
-                    class="form-control"
-                    type="search"
-                    name="search"
-                    id="search"
-                  />
-                  <a
-                    class="search-button search-blue bg-primary white-color remove-d-link-styles"
-                    href="searchResults.html"
-                    >SEARCH</a
-                  >
-                </div>
-              </form>
-              <div class="call-to-action-container">
-                <a
-                  class="call-to-action border-radius-3 remove-d-link-styles"
-                  href="#"
-                  >How it works</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="steps-section">
-        <div class="container">
-          <h2 class="steps-header">FIND YOUR NEXT HOME IN SIMPLE STEPS</h2>
-          <div class="grid-container">
-            <div class="grid-item">
-              <span class="steps-icon"
-                ><i class="fas fa-search-location"></i
-              ></span>
-              <h5 class="steps-title line-height">1-SEARCH</h5>
-              <p class="steps-description line-height">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatem dolor provident harum mollitia eveniet, illum odit
-                assumenda ullam aut repudiandae, minus delectus quo dolorum
-                fugit sed voluptatum nulla tempore et!
-              </p>
-            </div>
-            <div class="grid-item">
-              <span class="steps-icon"
-                ><i class="fas fa-map-marker-alt"></i
-              ></span>
-              <h5 class="steps-title line-height">2-LOCATE</h5>
-              <p class="steps-description line-height">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatem dolor provident harum mollitia eveniet, illum odit
-                assumenda ullam aut repudiandae, minus delectus quo dolorum
-                fugit sed voluptatum nulla tempore et!
-              </p>
-            </div>
-            <div class="grid-item">
-              <span class="steps-icon"><i class="fab fa-wpforms"></i></span>
-              <h5 class="steps-title line-height">3-APPLY</h5>
-              <p class="steps-description line-height">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatem dolor provident harum mollitia eveniet, illum odit
-                assumenda ullam aut repudiandae, minus delectus quo dolorum
-                fugit sed voluptatum nulla tempore et!
-              </p>
-            </div>
-            <div class="grid-item">
-              <span class="steps-icon"
-                ><i class="fas fa-umbrella-beach"></i
-              ></span>
-              <h5 class="steps-title line-height">4-RELAX</h5>
-              <p class="steps-description line-height">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatem dolor provident harum mollitia eveniet, illum odit
-                assumenda ullam aut repudiandae, minus delectus quo dolorum
-                fugit sed voluptatum nulla tempore et!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <article class="why-us-article mt-3 bg-primary">
-        <div class="container">
-          <div class="row">
-            <div class="col col-long d-flex-vertical-center-column white-color">
-              <h4 class="why-title line-height">
-                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing.
-              </h4>
-              <p class="why-description line-height mt-07">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <div class="why-button-container mt-07">
-                <a
-                  class="why-us-button border-radius-3 p remove-d-link-styles bg-white-red-text line-height"
-                  href="#"
-                  >Find Home</a
-                >
-              </div>
-            </div>
-            <div class="col col-img">
-              <img
-                class="img-fluid rounded"
-                src="./images/small.jpg"
-                alt="why us image"
+    <section class="filter-results">
+      <div class="container">
+        <h4 class="filter-by-title line-height text-align-center">
+          Filter by County, No. of Rooms, Location, kitchen size, architecture,
+          type
+        </h4>
+        <form class="form-row d-flex-row">
+          <div class="col-md d-flex-row">
+            <div class="form-group d-flex-row">
+              <label for="county">County:*</label>
+              <input
+                class="form-control"
+                type="text"
+                name="county"
+                id="county"
               />
             </div>
-          </div>
-        </div>
-      </article>
-      <article class="why-us-article bg-grey-white-text">
-        <div class="container">
-          <div class="row">
-            <div class="col col-long d-flex-vertical-center-column white-color">
-              <h4 class="why-title line-height">
-                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing.
-              </h4>
-              <p class="why-description line-height mt-07">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <div class="why-button-container mt-07">
-                <a
-                  class="why-us-button border-radius-3 p remove-d-link-styles bg-white-black-text line-height"
-                  href="#"
-                  >Locate Now</a
-                >
-              </div>
-            </div>
-            <div class="col col-img">
-              <img
-                class="img-fluid rounded"
-                src="./images/important-2.jpg"
-                alt="why us image"
-              />
+            <div class="form-group d-flex-row">
+              <label for="rooms">No. Rooms:</label>
+              <select class="form-control" name="rooms" id="rooms">
+                <option></option>
+                <option value="below5">Below 5</option>
+                <option value="bet5-7">Between 5-7</option>
+                <option value="bet5-7">Between 8-10</option>
+                <option value="above-10">Above 10</option>
+              </select>
             </div>
           </div>
-        </div>
-      </article>
-      <article class="why-us-article bg-blue-white-text">
-        <div class="container">
-          <div class="row">
-            <div class="col col-long d-flex-vertical-center-column white-color">
-              <h4 class="why-title line-height">
-                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing.
-              </h4>
-              <p class="why-description line-height mt-07">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Error. Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur.
-              </p>
+          <div class="col-md d-flex-row">
+            <div class="form-group d-flex-row">
+              <label for="location">Location:</label>
+              <select class="form-control" name="location" id="location">
+                <option></option>
+                <option value="by-road">ALong Highway</option>
+                <option value="by-town">Close to Town</option>
+              </select>
             </div>
-            <div class="col col-img">
-              <img
-                class="img-fluid rounded"
-                src="./images/important-3.jpg"
-                alt="why us image"
-              />
+            <div class="form-group d-flex-row">
+              <label for="kitchen">Kitchen:</label>
+              <select class="form-control" name="kitchen" id="kitchen">
+                <option></option>
+                <option value="big">Big</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+              </select>
             </div>
           </div>
-        </div>
-      </article>
-      <footer></footer>
-    </main>
+          <div class="col-md d-flex-row">
+            <div class="form-group d-flex-row">
+              <label for="arch">architecture:</label>
+              <select class="form-control" name="arch" id="arch">
+                <option></option>
+                <option value="modern">Modern</option>
+                <option value="legacy">Legacy</option>
+                <option value="traditional">Traditional</option>
+              </select>
+            </div>
+            <div class="form-group d-flex-row">
+              <label for="type">Type:</label>
+              <select class="form-control" name="type" id="type">
+                <option></option>
+                <option value="purchase">For Purchase</option>
+                <option value="rented">Rent</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-button d-flex-row">
+            <div class="form-group d-flex-row">
+              <span class="visility-0">search</span>
+              <button class="form-btn filter-search">
+                Search
+              </button>
+            </div>
+            <div class="form-group d-flex-row">
+              <span class="visility-0">clear</span>
+              <button class="form-btn filter-clear">
+                <i class="fas fa-edit"></i> Clear
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="found-results"></section>
     <footer class="bg-black white-color">
       <div class="footer-container">
         <div class="container">

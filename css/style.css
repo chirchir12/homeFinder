@@ -24,6 +24,10 @@
   text-align: center;
 }
 
+.visility-0 {
+  visibility: hidden;
+}
+
 .bg-blue-white-text {
   background-color: #1976d2;
   color: #fff;
@@ -345,6 +349,50 @@ footer .submit-form-btn {
   font-size: 0.87rem;
 }
 
+.filter-results {
+  background-color: #e0e0e0;
+  padding: 3.2rem 0;
+  margin: 3.2rem 0;
+}
+
+.filter-results .filter-by-title {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  opacity: 0.6;
+}
+
+.filter-results .form-group {
+  flex-direction: column;
+  margin-right: 0.5rem;
+  align-items: center;
+}
+
+.filter-results .form-control,
+.filter-results .form-btn {
+  padding: 0.4rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #424242;
+  background-color: #fff;
+}
+
+.filter-results .filter-search {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.filter-results .filter-clear {
+  background-color: #f9a825;
+  color: #fff;
+  font-weight: 600;
+}
+
+.filter-results .form-group label,
+.filter-results .form-group span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
 @media screen and (min-width: 1025px) {
   .container {
     position: relative;
@@ -373,6 +421,13 @@ footer .submit-form-btn {
   .landing-section .landing-section-content-container {
     width: 86%;
   }
+  .filter-results .col-md {
+    flex-direction: column;
+  }
+}
+
+.filter-results .form-group {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -384,12 +439,14 @@ footer .submit-form-btn {
     margin: 0 auto;
     overflow: hidden;
   }
+
   nav .header-container {
     display: flex;
     padding: 0.8rem 0;
     flex-direction: column;
     align-items: center;
   }
+
   .search-blue {
     background-color: #d84315;
   }
@@ -441,6 +498,7 @@ footer .submit-form-btn {
   footer .d-none-sm {
     display: none;
   }
+
   footer .d-sm-only {
     display: initial;
     font-size: 1rem;
@@ -458,6 +516,7 @@ footer .submit-form-btn {
   .social-container .d-flex-row {
     flex-direction: column;
   }
+
   .social-container .social-icons {
     flex-direction: row;
     margin-bottom: 1rem;
@@ -466,5 +525,16 @@ footer .submit-form-btn {
   .social-container .some-item {
     margin: 0.2rem 0;
     font-size: 0.87rem;
+  }
+
+  .filter-results .col-md,
+  .filter-results .form-group,
+  .filter-results .form-row {
+    flex-direction: column;
+  }
+
+  .filter-results .form-control,
+  .filter-results .form-btn {
+    width: 100%;
   }
 }
