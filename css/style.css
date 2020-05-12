@@ -5,10 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+.line-height {
+  line-height: 150%;
+}
 
 .bg-primary {
   background-color: #d84315;
   opacity: 0.9;
+}
+.bg-white-red-text {
+  background-color: #fff;
+  color: #d84315;
+}
+
+.d-flex-vertical-center-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .white-color {
@@ -16,11 +29,18 @@
 }
 
 .remove-d-link-styles {
-  color: #fff;
   text-decoration: none;
 }
 .spacer {
   flex: 1;
+}
+
+.mt-07 {
+  margin-top: 0.7rem;
+}
+
+.p {
+  padding: 0.5rem 0.7rem;
 }
 
 .remove-list-style {
@@ -41,7 +61,9 @@ nav .header-container {
 nav .nav-items {
   display: flex;
 }
-
+.border-radius-3 {
+  border-radius: 3px;
+}
 nav .nav-item {
   margin-left: 2rem;
   font-size: 0.9rem;
@@ -156,11 +178,6 @@ nav .brand-logo {
   font-size: 3rem;
 }
 
-.steps-section .steps-title,
-.steps-section .steps-description {
-  line-height: 150%;
-}
-
 .steps-section .steps-title {
   font-size: 1.2rem;
   margin: 0.5rem 0;
@@ -254,5 +271,12 @@ nav .brand-logo {
 
   .steps-section .grid-item:not(:first-child) {
     margin-top: 2rem;
+  }
+
+  .why-us-article .why-title {
+    font-size: 1rem;
+  }
+  .why-us-article .row {
+    padding-bottom: 1rem;
   }
 }
