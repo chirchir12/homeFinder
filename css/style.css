@@ -401,7 +401,7 @@ footer .submit-form-btn {
 .found-results .col {
   margin: 0.2rem 0.2rem;
   padding: 0.5rem;
-  width: 31%;
+  width: 32.3%;
   height: auto;
   background-image: linear-gradient(
       135deg,
@@ -568,5 +568,14 @@ footer .submit-form-btn {
   .filter-results .form-control,
   .filter-results .form-btn {
     width: 100%;
+  }
+
+  .found-results row {
+    flex-direction: column;
+  }
+
+  .found-results .col {
+    width: 100%;
+    margin: 0.6rem 0;
   }
 }
