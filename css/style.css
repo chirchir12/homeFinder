@@ -28,6 +28,10 @@
   visibility: hidden;
 }
 
+.blue-text {
+  color: #1976d2;
+}
+
 .bg-blue-white-text {
   background-color: #1976d2;
   color: #fff;
@@ -84,6 +88,9 @@
 
 .mt-3 {
   margin-top: 3rem;
+}
+.my-2 {
+  margin: 2rem 0;
 }
 
 .mb-1 {
@@ -425,6 +432,55 @@ footer .submit-form-btn {
   color: #616161;
   font-weight: 500;
 }
+
+.detail {
+  margin: 7rem auto 2rem;
+}
+.detail .house-info {
+  padding: 1rem;
+  box-shadow: -1px -1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.detail .row {
+  flex-wrap: wrap;
+}
+
+.detail .col {
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0.3rem;
+  width: 32.3%;
+  border: 1px solid #e0e0e0;
+}
+
+.detail .apply-container {
+  justify-content: flex-end;
+}
+
+.detail .more-info {
+  justify-content: center;
+}
+
+.detail .more-item {
+  margin: 0 0.5rem;
+}
+
+.detail .more-info .fas {
+  margin-right: 0.5rem;
+}
+
+.detail .apply {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid transparent;
+  font-weight: 700;
+}
+
+.detail .view-more-details {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #e0e0e0;
+}
+
 @media screen and (min-width: 1025px) {
   .container {
     position: relative;
