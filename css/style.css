@@ -13,9 +13,19 @@
   background-color: #d84315;
   opacity: 0.9;
 }
+
+.bg-grey-white-text {
+  color: #fff;
+  background-color: #9e9e9e;
+}
 .bg-white-red-text {
   background-color: #fff;
   color: #d84315;
+}
+
+.bg-white-black-text {
+  background-color: #fff;
+  color: #000;
 }
 
 .d-flex-vertical-center-column {
@@ -28,6 +38,10 @@
   color: #fff;
 }
 
+.black-text {
+  color: #000;
+}
+
 .remove-d-link-styles {
   text-decoration: none;
 }
@@ -37,6 +51,9 @@
 
 .mt-07 {
   margin-top: 0.7rem;
+}
+.mt-3 {
+  margin-top: 3rem;
 }
 
 .p {
@@ -184,7 +201,6 @@ nav .brand-logo {
 }
 
 .why-us-article {
-  margin-top: 3rem;
   padding: 0.5rem 0;
 }
 
