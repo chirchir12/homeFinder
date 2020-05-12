@@ -27,6 +27,11 @@
   list-style: none;
 }
 
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
 nav .header-container {
   display: flex;
   padding: 0.8rem 0;
@@ -159,6 +164,20 @@ nav .brand-logo {
 .steps-section .steps-title {
   font-size: 1.2rem;
   margin: 0.5rem 0;
+}
+
+.why-us-article {
+  margin-top: 3rem;
+  padding: 0.5rem 0;
+}
+
+.why-us-article .row {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+}
+.why-us-article .rounded {
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 1025px) {
