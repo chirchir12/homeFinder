@@ -28,9 +28,9 @@ body {
   text-align: center;
 }
 
-.border-0{
+.border-0 {
   border: 0;
-} 
+}
 
 .p-07 {
   padding: 0.5rem;
@@ -166,7 +166,12 @@ nav .brand-logo {
 .landing-section {
   width: 100%;
   height: 70vh;
-  background-image: linear-gradient(135deg, rgba(2, 11, 26, 0.5), rgba(2, 11, 26, 0.9)), url('../images/bg-1.jpg');
+  background-image: linear-gradient(
+      135deg,
+      rgba(2, 11, 26, 0.5),
+      rgba(2, 11, 26, 0.9)
+    ),
+    url('../images/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -422,7 +427,12 @@ section.filter-results .form-control,
   padding: 0.5rem;
   width: 32.3%;
   height: auto;
-  background-image: linear-gradient(135deg, rgba(219, 55, 4, 0.7), rgba(219, 55, 4, 0.9)), url('../images/bg-1.jpg');
+  background-image: linear-gradient(
+      135deg,
+      rgba(219, 55, 4, 0.7),
+      rgba(219, 55, 4, 0.9)
+    ),
+    url('../images/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -508,10 +518,10 @@ section.filter-results .form-control,
 .myForm input {
   width: 100%;
   margin: 0.4rem auto;
-  padding: 0.5rem ;
+  padding: 0.5rem;
   background-color: #e0e0e0;
   border: 0;
-border-bottom: 1px dotted #616161 ;
+  border-bottom: 1px dotted #616161;
 }
 
 @media screen and (min-width: 1025px) {
