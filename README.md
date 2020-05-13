@@ -1,9 +1,9 @@
 
 ## CAPSTONE PROJECT:  HomeFinder
 
-this is a simple that help people relocation to a new place find the best home that matches their needs. 
+this is a simple project that help people relocation to a new place find the best home that matches their needs. 
 The purpose of this project is to demonstrate my understanding in HTML5 and CSS3 in solving real world problems. 
-This project consist of index page which is the landing page for the site, the search results page which list all avaialable homes and a detail page which show detail information about a particular home
+This project consist of index page which is the landing page for the site, the search results page which list all available homes and a detail page which show detail information about a particular home
 - The site is responsive and accomodate devices that fall in three breakpoints 
     * up-to 768px -small devices
     * up-to 1024px  -medium devices
