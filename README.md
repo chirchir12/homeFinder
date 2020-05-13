@@ -9,13 +9,13 @@ The site is responsive and accomodate devices that fall in three breakpoints
     * up-to 1024px  -medium devices
     * from 1024px and above -large devices
 
-# large screen 
+# small screen 
 ![screenshot](images/screen/small.png)
 
 # medium screen 
 ![screenshot](images/screen/medium.png)
 
-# small screen 
+# Large screen 
 ![screenshot](images/screen/large.png)
 
 ## Built With
