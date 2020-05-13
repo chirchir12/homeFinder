@@ -378,7 +378,7 @@ footer .submit-form-btn {
   align-items: center;
 }
 
-.filter-results .form-control,
+section.filter-results .form-control,
 .filter-results .form-btn {
   padding: 0.4rem 0.5rem;
   border-radius: 4px;
