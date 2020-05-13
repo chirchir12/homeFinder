@@ -406,6 +406,11 @@ section.filter-results .form-control,
   font-weight: 600;
 }
 
+.myForm label {
+  font-weight: 600;
+}
+
+
 .filter-results .form-group label,
 .filter-results .form-group span {
   font-size: 1.2rem;
@@ -499,10 +504,6 @@ section.filter-results .form-control,
   flex-direction: column;
   width: 70%;
   margin: 4rem auto;
-}
-
-.myForm label {
-  font-weight: 600;
 }
 
 .myForm input {
