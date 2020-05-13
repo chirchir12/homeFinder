@@ -4,19 +4,20 @@
 this is a simple that help people relocation to a new place find the best home that matches their needs. 
 The purpose of this project is to demonstrate my understanding in HTML5 and CSS3 in solving real world problems. 
 This project consist of index page which is the landing page for the site, the search results page which list all avaialable homes and a detail page which show detail information about a particular home
-The site is responsive and accomodate devices that fall in three breakpoints 
+- The site is responsive and accomodate devices that fall in three breakpoints 
     * up-to 768px -small devices
     * up-to 1024px  -medium devices
     * from 1024px and above -large devices
 
-# small screen 
-![screenshot](images/screen/small.png)
+# Large screen 
+![screenshot](images/screen/large.png)
 
 # medium screen 
 ![screenshot](images/screen/medium.png)
 
-# Large screen 
-![screenshot](images/screen/large.png)
+# small screen 
+![screenshot](images/screen/small.png)
+
 
 ## Built With
 
