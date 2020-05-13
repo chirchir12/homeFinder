@@ -449,7 +449,7 @@ footer .submit-form-btn {
   text-transform: uppercase;
   padding: 0.5rem 0;
   margin: 0.5rem 0.3rem;
-  width: 32.3%;
+  width: 32%;
   border: 1px solid #e0e0e0;
 }
 
@@ -512,10 +512,15 @@ footer .submit-form-btn {
   .filter-results .col-md {
     flex-direction: column;
   }
-}
-
-.filter-results .form-group {
-  margin-bottom: 1rem;
+  .filter-results .form-group {
+    margin-bottom: 1rem;
+  }
+  .detail .col {
+    width: 45%;
+  }
+  .more-item span {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -633,5 +638,11 @@ footer .submit-form-btn {
   .found-results .col {
     width: 100%;
     margin: 0.6rem 0;
+  }
+  .detail .col {
+    width: 100%;
+  }
+  .more-item span:last-child {
+    display: none;
   }
 }
