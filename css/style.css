@@ -579,6 +579,10 @@ footer .submit-form-btn {
     text-align: center;
   }
 
+  footer.bg-black .grid-item {
+    margin-top: 1.3rem;
+  }
+
   .steps-section .grid-item:not(:first-child) {
     margin-top: 2rem;
   }
@@ -612,10 +616,6 @@ footer .submit-form-btn {
   footer .contact-info {
     display: flex;
     flex-direction: column;
-  }
-
-  footer.bg-black .grid-item {
-    margin-top: 1.3rem;
   }
 
   .social-container .d-flex-row {
