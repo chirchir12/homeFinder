@@ -572,6 +572,10 @@ section.filter-results .form-control,
     overflow: hidden;
   }
 
+  .footer-icon-container.footer-nav-item {
+    display: none;
+  }
+
   .myForm {
     width: 100%;
   }
