@@ -28,6 +28,14 @@ body {
   text-align: center;
 }
 
+.border-0{
+  border: 0;
+} 
+
+.p-07 {
+  padding: 0.5rem;
+}
+
 .visility-0 {
   visibility: hidden;
 }
@@ -487,6 +495,25 @@ section.filter-results .form-control,
   margin-bottom: 2rem;
 }
 
+.myForm {
+  flex-direction: column;
+  width: 70%;
+  margin: 4rem auto;
+}
+
+.myForm label {
+  font-weight: 600;
+}
+
+.myForm input {
+  width: 100%;
+  margin: 0.4rem auto;
+  padding: 0.5rem ;
+  background-color: #e0e0e0;
+  border: 0;
+border-bottom: 1px dotted #616161 ;
+}
+
 @media screen and (min-width: 1025px) {
   .container {
     position: relative;
@@ -543,6 +570,10 @@ section.filter-results .form-control,
     padding: 0 20px;
     margin: 0 auto;
     overflow: hidden;
+  }
+
+  .myForm {
+    width: 100%;
   }
 
   nav .header-container {
