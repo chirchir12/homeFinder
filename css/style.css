@@ -62,6 +62,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
 .d-flex-row {
   display: flex;
 }
@@ -69,6 +70,7 @@ body {
 .white-color {
   color: #fff;
 }
+
 .red-text {
   color: #d84315;
 }
@@ -156,7 +158,7 @@ nav .brand-logo {
 .landing-section {
   width: 100%;
   height: 70vh;
-  background-image: linear-gradient(135deg,rgba(2, 11, 26, 0.5),rgba(2, 11, 26, 0.9)),url('../images/bg-1.jpg');
+  background-image: linear-gradient(135deg, rgba(2, 11, 26, 0.5), rgba(2, 11, 26, 0.9)), url('../images/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -322,13 +324,13 @@ footer .footer-subscribe {
   justify-content: center;
 }
 
-footer .form-control,
+footer.bg-black .form-control,
 footer .submit-form-btn {
   padding: 0.4rem 0.5rem;
   border: 0;
 }
 
-footer .form-control {
+footer.bg-black .form-control {
   color: #fff;
   background-color: transparent;
   border-top: 1px solid #616161;
@@ -412,7 +414,7 @@ footer .submit-form-btn {
   padding: 0.5rem;
   width: 32.3%;
   height: auto;
-  background-image: linear-gradient(135deg,rgba(219, 55, 4, 0.7),rgba(219, 55, 4, 0.9)),url('../images/bg-1.jpg');
+  background-image: linear-gradient(135deg, rgba(219, 55, 4, 0.7), rgba(219, 55, 4, 0.9)), url('../images/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -482,7 +484,6 @@ footer .submit-form-btn {
 
 .detail .map-container {
   width: 100%;
-
   margin-bottom: 2rem;
 }
 
@@ -613,7 +614,7 @@ footer .submit-form-btn {
     flex-direction: column;
   }
 
-  footer .grid-item {
+  footer.bg-black .grid-item {
     margin-top: 1.3rem;
   }
 
@@ -642,7 +643,7 @@ footer .submit-form-btn {
     width: 100%;
   }
 
-  .found-results row {
+  .found-results .row {
     flex-direction: column;
   }
 
