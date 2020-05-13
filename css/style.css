@@ -8,17 +8,17 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-.line-height {
   line-height: 150%;
 }
 
 .d-block {
   display: block;
 }
+
 .d-grid {
   display: grid;
 }
+
 .bg-primary {
   background-color: #d84315;
   opacity: 0.9;
@@ -38,16 +38,14 @@ body {
 
 .bg-blue-white-text {
   background-color: #1976d2;
-  color: #fff;
 }
+
 .bg-grey-white-text {
-  color: #fff;
   background-color: #9e9e9e;
 }
 
 .bg-white-red-text {
   background-color: #fff;
-  color: #d84315;
 }
 
 .bg-black {
@@ -82,6 +80,7 @@ body {
 .remove-d-link-styles {
   text-decoration: none;
 }
+
 .spacer {
   flex: 1;
 }
@@ -93,6 +92,7 @@ body {
 .mt-3 {
   margin-top: 3rem;
 }
+
 .my-2 {
   margin: 2rem 0;
 }
@@ -123,9 +123,11 @@ nav .header-container {
 nav .nav-items {
   display: flex;
 }
+
 .border-radius-3 {
   border-radius: 3px;
 }
+
 nav .nav-item {
   margin-left: 2rem;
   font-size: 0.9rem;
@@ -154,12 +156,7 @@ nav .brand-logo {
 .landing-section {
   width: 100%;
   height: 70vh;
-  background-image: linear-gradient(
-      135deg,
-      rgba(2, 11, 26, 0.5),
-      rgba(2, 11, 26, 0.9)
-    ),
-    url('../images/bg-1.jpg');
+  background-image: linear-gradient(135deg,rgba(2, 11, 26, 0.5),rgba(2, 11, 26, 0.9)),url('../images/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -285,6 +282,7 @@ footer .navbar-container-footer {
   width: 100%;
   padding: 1rem 0;
 }
+
 footer .footer-nav-item {
   padding: 0.7rem 0.4rem;
   font-size: 0.9rem;
@@ -414,12 +412,7 @@ footer .submit-form-btn {
   padding: 0.5rem;
   width: 32.3%;
   height: auto;
-  background-image: linear-gradient(
-      135deg,
-      rgba(219, 55, 4, 0.7),
-      rgba(219, 55, 4, 0.9)
-    ),
-    url('../images/bg-1.jpg');
+  background-image: linear-gradient(135deg,rgba(219, 55, 4, 0.7),rgba(219, 55, 4, 0.9)),url('../images/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -441,6 +434,7 @@ footer .submit-form-btn {
   padding-top: 5rem;
   margin: 0 auto 2rem;
 }
+
 .detail .house-info {
   padding: 1rem;
   box-shadow: -1px -4px 7px 3px rgba(0, 0, 0, 0.32);
@@ -510,9 +504,11 @@ footer .submit-form-btn {
     margin: 0 auto;
     overflow: hidden;
   }
+
   nav .d-none-medium-below {
     display: none;
   }
+
   .search-blue {
     background-color: #2a55b8;
   }
@@ -520,15 +516,19 @@ footer .submit-form-btn {
   .landing-section .landing-section-content-container {
     width: 86%;
   }
+
   .filter-results .col-md {
     flex-direction: column;
   }
+
   .filter-results .form-group {
     margin-bottom: 1rem;
   }
+
   .detail .col {
     width: 45%;
   }
+
   .more-item span {
     font-size: 0.9rem;
   }
@@ -650,9 +650,11 @@ footer .submit-form-btn {
     width: 100%;
     margin: 0.6rem 0;
   }
+
   .detail .col {
     width: 100%;
   }
+
   .more-item span:last-child {
     display: none;
   }
