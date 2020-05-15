@@ -360,7 +360,7 @@ footer .submit-form-btn {
   margin: 3.2rem 0;
 }
 
-.filter-results .form-row  {
+.filter-results .form-row {
   border: 1px solid;
   justify-content: space-between;
 }
@@ -381,12 +381,12 @@ footer .submit-form-btn {
   flex-direction: column;
   flex: 1;
   margin: 0 0.2rem;
-  border: 1px solid yellow!important;
+  border: 1px solid yellow !important;
 }
 
-.filter-results .form-control{
+.filter-results .form-control {
   width: 100%;
-  border: 1px solid red!important;
+  border: 1px solid red !important;
 }
 
 section.filter-results .form-control,
@@ -552,7 +552,7 @@ section.filter-results .form-control,
     width: 86%;
   }
 
-  .filter-results .form-control{
+  .filter-results .form-control {
     width: 100%;
   }
 
