@@ -318,6 +318,11 @@ footer .footer-subscribe {
   justify-content: center;
 }
 
+.filter-results .form-control {
+  width: 100%;
+  border: 1px solid red !important;
+}
+
 footer.bg-black .form-control,
 footer .submit-form-btn {
   padding: 0.4rem 0.5rem;
@@ -382,11 +387,6 @@ footer .submit-form-btn {
   flex: 1;
   margin: 0 0.2rem;
   border: 1px solid yellow !important;
-}
-
-.filter-results .form-control {
-  width: 100%;
-  border: 1px solid red !important;
 }
 
 section.filter-results .form-control,
