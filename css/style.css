@@ -320,7 +320,6 @@ footer .footer-subscribe {
 
 .filter-results .form-control {
   width: 100%;
-  border: 1px solid red !important;
 }
 
 footer.bg-black .form-control,
@@ -366,13 +365,11 @@ footer .submit-form-btn {
 }
 
 .filter-results .form-row {
-  border: 1px solid;
   justify-content: space-between;
 }
 
 .filter-results .col-md {
   flex: 1;
-  border: 1px solid purple;
   justify-content: space-between;
 }
 
@@ -386,7 +383,6 @@ footer .submit-form-btn {
   flex-direction: column;
   flex: 1;
   margin: 0 0.2rem;
-  border: 1px solid yellow !important;
 }
 
 section.filter-results .form-control,
