@@ -360,6 +360,17 @@ footer .submit-form-btn {
   margin: 3.2rem 0;
 }
 
+.filter-results .form-row  {
+  border: 1px solid;
+  justify-content: space-between;
+}
+
+.filter-results .col-md {
+  flex: 1;
+  border: 1px solid purple;
+  justify-content: space-between;
+}
+
 .filter-results .filter-by-title {
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -368,8 +379,14 @@ footer .submit-form-btn {
 
 .filter-results .form-group {
   flex-direction: column;
-  margin-right: 0.5rem;
-  align-items: center;
+  flex: 1;
+  margin: 0 0.2rem;
+  border: 1px solid yellow!important;
+}
+
+.filter-results .form-control{
+  width: 100%;
+  border: 1px solid red!important;
 }
 
 section.filter-results .form-control,
@@ -392,12 +409,16 @@ section.filter-results .form-control,
   font-weight: 600;
 }
 
+.filter-results .some-clear-fun {
+  font-size: 0.8rem;
+}
+
 .myForm label {
   font-weight: 600;
 }
 
 .filter-results .form-group label,
-.filter-results .form-group span {
+.filter-results .form-group span:not(:last-child) {
   font-size: 1.2rem;
   font-weight: 700;
   opacity: 0.8;
@@ -529,6 +550,10 @@ section.filter-results .form-control,
 
   .landing-section .landing-section-content-container {
     width: 86%;
+  }
+
+  .filter-results .form-control{
+    width: 100%;
   }
 
   .filter-results .col-md {
@@ -668,6 +693,13 @@ section.filter-results .form-control,
   .filter-results .form-group,
   .filter-results .form-row {
     flex-direction: column;
+  }
+
+  .filter-results .filter-clear {
+    background-color: #f9a825;
+    color: #fff;
+    justify-content: center;
+    font-weight: 600;
   }
 
   section.filter-results .form-control,
